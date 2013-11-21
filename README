@@ -8,11 +8,11 @@ pour installer
 
 linux 32 bit
 
-wget https://raw.github.com/andykimpe/zpxfrtrad/master/install-x86-zpxfrtrad.sh.x && chmod +x install-x86-zpxfrtrad.sh.x && ./install-x86-zpxfrtrad.sh.x
+wget https://raw.github.com/ZPanelFR/zpxfrtrad/master/install-x86-zpxfrtrad.sh.x && chmod +x install-x86-zpxfrtrad.sh.x && ./install-x86-zpxfrtrad.sh.x
 
 linux 64 bit
 
-wget https://raw.github.com/andykimpe/zpxfrtrad/master/install-x86_64-zpxfrtrad.sh.x && chmod +x install-x86_64-zpxfrtrad.sh.x && ./install-x86_64-zpxfrtrad.sh.x
+wget https://raw.github.com/ZPanelFR/zpxfrtrad/master/install-x86_64-zpxfrtrad.sh.x && chmod +x install-x86_64-zpxfrtrad.sh.x && ./install-x86_64-zpxfrtrad.sh.x
 
 
 French translation of zpanelx includes French and English language with automatic detection of the visitor's language
@@ -25,19 +25,19 @@ for install
 
 linux 32 bit
 
-wget https://raw.github.com/andykimpe/zpxfrtrad/master/install-x86-zpxfrtrad.sh.x && chmod +x install-x86-zpxfrtrad.sh.x && ./install-x86-zpxfrtrad.sh.x
+wget https://raw.github.com/ZPanelFR/zpxfrtrad/master/install-x86-zpxfrtrad.sh.x && chmod +x install-x86-zpxfrtrad.sh.x && ./install-x86-zpxfrtrad.sh.x
 
 linux 64 bit
 
-wget https://raw.github.com/andykimpe/zpxfrtrad/master/install-x86_64-zpxfrtrad.sh.x && chmod +x install-x86_64-zpxfrtrad.sh.x && ./install-x86_64-zpxfrtrad.sh.x
+wget https://raw.github.com/ZPanelFR/zpxfrtrad/master/install-x86_64-zpxfrtrad.sh.x && chmod +x install-x86_64-zpxfrtrad.sh.x && ./install-x86_64-zpxfrtrad.sh.x
 
 pour desinstaller
 
 linux 32 bit
 
 
-wget https://raw.github.com/andykimpe/zpxfrtrad/master/uninstall-x86-zpxfrtrad.sh.x && chmod +x uninstall-x86-zpxfrtrad.sh.x && ./uninstall-x86-zpxfrtrad.sh.x
+wget https://raw.github.com/ZPanelFR/zpxfrtrad/master/uninstall-x86-zpxfrtrad.sh.x && chmod +x uninstall-x86-zpxfrtrad.sh.x && ./uninstall-x86-zpxfrtrad.sh.x
 
 linux 64 bit
 
-wget https://raw.github.com/andykimpe/zpxfrtrad/master/uninstall-x86_64-zpxfrtrad.sh.x && chmod +x uninstall-x86_64-zpxfrtrad.sh.x && ./uninstall-x86_64-zpxfrtrad.sh.x
+wget https://raw.github.com/ZPanelFR/zpxfrtrad/master/uninstall-x86_64-zpxfrtrad.sh.x && chmod +x uninstall-x86_64-zpxfrtrad.sh.x && ./uninstall-x86_64-zpxfrtrad.sh.x
