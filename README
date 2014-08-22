@@ -1,8 +1,8 @@
 traduction française de zpanelx inclut langue français et anglais avec detection automatique de la langue du visiteur
 
-22/10/2013
+22/09/2014
 
-Version FR-V-0.0.4 100% compatible avec la 10.1.0
+Version FR-V-0.0.5 100% compatible avec la 10.1.1
 
 pour installer
 
@@ -17,9 +17,9 @@ wget https://raw.github.com/ZPanelFR/zpxfrtrad/master/install-x86_64-zpxfrtrad.s
 
 French translation of zpanelx includes French and English language with automatic detection of the visitor's language
 
-22/10/2013
+22/09/2014
 
-Version 0.0.4 FR-V-0.0.3 100% available with 10.1.0
+Version 0.0.5 FR-V-0.0.5 100% available with 10.1.0
 
 for install
 
