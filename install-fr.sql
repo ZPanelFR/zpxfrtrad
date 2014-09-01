@@ -1052,7 +1052,7 @@ INSERT INTO `x_translations` (`tr_id_pk`, `tr_en_tx`, `tr_French_tx`) VALUES
 (1103, 'SQLBuddy is a lightweight web based administration tool to enable easy administraion of your MySQL databases.', 'SQLBuddy est un outil d''administration basé sur le Web léger pour permettre administraion facile de vos bases de données MySQL.'),
 (1104, 'Launch SQLBuddy', 'lancer SQLBuddy'),
 (1105, 'support_ticket2', NULL),
-(1106, 'The module zantasticotx is already installed on this server!', NULL),
+(1106, 'The module zantasticotx is already installed on this server!', 'Le module zantasticotx est déjà installé sur ce serveur !'),
 (1107, 'Couldn\\''t upload the file, 3', NULL);
 
 UPDATE `zpanel_core`.`x_profiles` SET `ud_language_vc` = 'French' WHERE `x_profiles`.`ud_id_pk` =1;
