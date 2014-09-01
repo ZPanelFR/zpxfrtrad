@@ -3,7 +3,6 @@ DROP TABLE IF EXISTS `x_translations`;
 CREATE TABLE IF NOT EXISTS `x_translations` (
 `tr_id_pk` int(11) NOT NULL AUTO_INCREMENT,
 `tr_en_tx` text,
-`tr_German_tx` text,
 `tr_French_tx` text,
 PRIMARY KEY (`tr_id_pk`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=562 ;
