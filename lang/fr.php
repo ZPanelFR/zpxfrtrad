@@ -16,10 +16,10 @@ $protocol = 'https://';
 $protocol = 'http://';
 }
 $phpmailer = new sys_email();
-$phpmailer->Subject = "Panneau H&eacute;bergement R&eacute;initialiser mot de passe";
+$phpmailer->Subject = "Panneau Hébergement Réinitialiser mot de passe";
 $phpmailer->Body = "Bonjour " . $result['ac_user_vc'] . ",
-Vous, ou quelqu'un ce faisant passer pour vous, a demand&eacute; un lien de r&eacute;initialisation de mot de passe pour &ecirc;tre envoy&eacute; pour la connexion &agrave; votre panneau de commande de votre h&eacute;bergement web .
-Si vous souhaitez proc&eacute;der &agrave; la r&eacute;initialisation du mot de passe sur votre compte, se il vous pla&icirc;t utiliser le lien ci-dessous pour &ecirc;tre redirig&eacute; vers la page de r&eacute;initialisation de mot de passe.
+Vous, ou quelqu'un ce faisant passer pour vous, a demandé un lien de réinitialisation de mot de passe pour étre envoyé pour la connexion à votre panneau de commande de votre hébergement web .
+Si vous souhaitez procéder à la réinitialisation du mot de passe sur votre compte, se il vous plaît utiliser le lien ci-dessous pour étre redirigé vers la page de réinitialisation de mot de passe.
 " . $protocol . ctrl_options::GetSystemOption('sentora_domain') . "/?resetkey=" . $randomkey . "
 ";
 $phpmailer->AddAddress($result['ac_email_vc']);
