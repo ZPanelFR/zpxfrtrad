@@ -1,8 +1,8 @@
 <?php
 //---------------------------------------------------------
-// Theme zpanelx and défault
+// Theme zpanelx and dÃ©fault
 //---------------------------------------------------------
-define('TXT_DEFAULT_TITLE', 'ZPanel - Prenant d\'h&eacute;bergement au niveau suivant&#33;');
+define('TXT_DEFAULT_TITLE', 'Panneau de configuration - Connexion');
 define('TXT_DEFAULT_RESET', 'R&eacute;initialiser le mot de passe');
 define('TXT_DEFAULT_TEXT_RESET', 'Vous y &ecirc;tes presque! Pour r&eacute;initialiser votre mot de passe, s\'il vous pla&icirc;t entrer votre nouveau mot de passe et validez votre adresse e-mail pour proc&eacute;der.');
 define('TXT_DEFAULT_NEW_PASSWORD', 'Nouveau mot de passe');
