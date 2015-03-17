@@ -1,8 +1,8 @@
 <?php
 //---------------------------------------------------------
-// Theme zpanelx and défault
+// Theme zpanelx and dÃ©fault
 //---------------------------------------------------------
-define('TXT_DEFAULT_TITLE', 'ZPanel - Taking hosting to the next level!');
+define('TXT_DEFAULT_TITLE', 'Control Panel - Login');
 define('TXT_DEFAULT_RESET', 'Reset Password');
 define('TXT_DEFAULT_TEXT_RESET', 'Your nearly there! To reset your account password, please enter your new password and confirm your email address to proceed.');
 define('TXT_DEFAULT_NEW_PASSWORD', 'New Password');
