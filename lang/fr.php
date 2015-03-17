@@ -16,7 +16,7 @@ $protocol = 'https://';
 $protocol = 'http://';
 }
 $phpmailer = new sys_email();
-$phpmailer->Subject = "Panneau Hébergement Réinitialiser mot de passe";
+$phpmailer->Subject = "Panneau Hebergement Reinitialiser mot de passe";
 $phpmailer->Body = "Bonjour " . $result['ac_user_vc'] . ",
 Vous, ou quelqu'un ce faisant passer pour vous, a demandé un lien de réinitialisation de mot de passe pour étre envoyé pour la connexion à votre panneau de commande de votre hébergement web .
 Si vous souhaitez procéder à la réinitialisation du mot de passe sur votre compte, se il vous plaît utiliser le lien ci-dessous pour étre redirigé vers la page de réinitialisation de mot de passe.
