@@ -110,21 +110,21 @@ if (isset($_GET['passwordreset'])) {
 </div>
 </div>
 <div class="control-group">
-<label class="control-label" for="inputNewPass2">Confirm Password:</label>
+<label class="control-label" for="inputNewPass2"><?php echo TXT_DEFAULT_RETYPE_PASSWORD ; ?> :</label>
 <div class="controls">
-<input type="password" class="input-medium" id="inputNewPass2" name="inputNewPass2" placeholder="Confirm Password" required>
+<input type="password" class="input-medium" id="inputNewPass2" name="inputNewPass2" placeholder="<?php echo TXT_DEFAULT_RETYPE_PASSWORD ; ?>"  <?php echo TXT_DEFAULT_REQUIRED ; ?>>
 </div>
 </div>
 <div class="control-group">
 <label class="control-label" for="inPassword">EMail:</label>
 <div class="controls">
-<input type="text" class="input-medium" id="inPassword" name="inConfEmail" placeholder="Email" required>
+<input type="text" class="input-medium" id="inPassword" name="inConfEmail" placeholder="Email" <?php echo TXT_DEFAULT_REQUIRED ; ?>>
 </div>
 </div>
 </div>
 <div class="loginbtm">
 <div>
-<!-- <a href="javascript:void(0);" id="backtologin2">Back To Login</a> -->
+<!-- <a href="javascript:void(0);" id="backtologin2"><?php echo TXT_DEFAULT_BACK_LOGIN ; ?></a> -->
 </div>
 <div>
 <button type="submit" class="btn btn-primary" id="btnReset" name="sublogin2" value="Reset">Submit</button>
