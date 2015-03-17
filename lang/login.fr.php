@@ -10,7 +10,7 @@ define('TXT_DEFAULT_YOUR_EMAIL', 'Votre adresse e-mail');
 define('TXT_DEFAULT_RETYPE_PASSWORD', 'Retapez votre nouveau mot de passe');
 define('TXT_DEFAULT_BUTTON_SUBMIT', 'Envoyer');
 define('TXT_DEFAULT_CONTROL_PANEL', 'Connexion au Panneau de Contr&ocirc;le');
-define('TXT_DEFAULT_INVALID_LOGIN', 'Compte d\'utilisateur non valide ou nom d\'utilisateur / mot de passe non corespondant, s\'il vous pla&icirc;t essayer &agrave; nouveau&#33;');
+define('TXT_DEFAULT_INVALID_LOGIN', 'Nom d\'utilisateur ou mot de passe incorrect!');
 define('TXT_DEFAULT_LOGOUT_SUCCESSFULY', 'Vous avez &eacute;t&eacute; d&eacute;connect&eacute; avec succ&egrave;s&#33;');
 define('TXT_DEFAULT_RESET_EMAIL', 'Si votre adresse e-mail correspond &agrave; celle de votre compte de votre mot de passe a &eacute;t&eacute; r&eacute;initialis&eacute;&#33;');
 define('TXT_DEFAULT_USERNAME', 'Nom d\'utilisateur');
