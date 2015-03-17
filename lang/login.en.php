@@ -10,7 +10,7 @@ define('TXT_DEFAULT_YOUR_EMAIL', 'Your email address');
 define('TXT_DEFAULT_RETYPE_PASSWORD', 'Re-type new password');
 define('TXT_DEFAULT_BUTTON_SUBMIT', 'Submit');
 define('TXT_DEFAULT_CONTROL_PANEL', 'Control panel login');
-define('TXT_DEFAULT_INVALID_LOGIN', 'Invalid user account or username/password mismatch, please try again!');
+define('TXT_DEFAULT_INVALID_LOGIN', 'Invalid Username or Password!');
 define('TXT_DEFAULT_LOGOUT_SUCCESSFULY', 'You have been logged out successfully!');
 define('TXT_DEFAULT_RESET_EMAIL', 'If your email address matched the one on your account your password has now been reset!');
 define('TXT_DEFAULT_USERNAME', 'Username');
