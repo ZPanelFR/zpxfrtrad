@@ -64,25 +64,28 @@ if (isset($_GET['invalidlogin'])) {
 <?php
 }
 if (isset($_GET['loggedout'])) {
-echo '
+?>
 <div class="alert alert-success fade in">
 <button type="button" class="close" data-dismiss="alert">&times;</button>
-Logout Successful!
-</div>';
+<?php echo TXT_DEFAULT_LOGOUT_SUCCESSFULY ; ?>
+</div>
+<?php
 }
 if(isset($_GET['sessionIssue'])){
-echo '
+?>
 <div class="alert alert-danger fade in">
 <button type="button" class="close" data-dismiss="alert">&times;</button>
-You have been logged out, please login again.
-</div>';
+<?php echo TXT_DEFAULT_LOGGED_OUT ; ?>
+</div>
+<?php
 }
 if (isset($_GET['passwordreset'])) {
-echo '
+?>
 <div class="alert alert-success fade in">
 <button type="button" class="close" data-dismiss="alert">&times;</button>
-Your password has been reset!
-</div>';
+<?php echo TXT_DEFAULT_RESET_EMAIL ; ?>
+</div>
+<?php
 }
 //if (runtime_sessionsecurity::checkProxy()) {
 // echo '
@@ -96,14 +99,14 @@ Your password has been reset!
 <!-- Reset password form -->
 <div id="msgMatchErr" class="alert alert-danger fade in" style="display: none;">
 <button type="button" class="close" data-dismiss="alert">&times;</button>
-Passwords are different.
+<?php echo TXT_DEFAULT_PASSWORD_DIFFERENT ; ?>
 </div>
 <form action="?resetkey=<?php echo $_GET['resetkey']; ?>" method="post" name="frmZConfirm" id="frmZConfirm" class="form-horizontal loginform">
 <div class="loginmid">
 <div class="control-group">
-<label class="control-label" for="inputNewPass1">New Password:</label>
+<label class="control-label" for="inputNewPass1"><?php echo TXT_DEFAULT_NEW_PASSWORD ; ?> :</label>
 <div class="controls">
-<input type="password" class="input-medium" id="inputNewPass1" name="inNewPass" placeholder="New Password" required>
+<input type="password" class="input-medium" id="inputNewPass1" name="inNewPass" placeholder="<?php echo TXT_DEFAULT_NEW_PASSWORD ; ?>" <?php echo TXT_DEFAULT_REQUIRED ; ?>>
 </div>
 </div>
 <div class="control-group">
