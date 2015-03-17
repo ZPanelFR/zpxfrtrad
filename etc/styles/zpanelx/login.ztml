@@ -127,7 +127,7 @@ if (isset($_GET['passwordreset'])) {
 <!-- <a href="javascript:void(0);" id="backtologin2"><?php echo TXT_DEFAULT_BACK_LOGIN ; ?></a> -->
 </div>
 <div>
-<button type="submit" class="btn btn-primary" id="btnReset" name="sublogin2" value="Reset">Submit</button>
+<button type="submit" class="btn btn-primary" id="btnReset" name="sublogin2" value="Reset"><?php echo TXT_DEFAULT_BUTTON_SUBMIT ; ?></button>
 </div>
 </div>
 <?php echo runtime_csfr::Token(); ?>
@@ -142,16 +142,16 @@ if (isset($_GET['passwordreset'])) {
 Email:
 </label>
 <div class="controls">
-<input type="text" class="input-medium" id="inputEmail" name="inForgotPassword" placeholder="Email" required>
+<input type="text" class="input-medium" id="inputEmail" name="inForgotPassword" placeholder="Email" <?php echo TXT_DEFAULT_REQUIRED ; ?>>
 </div>
 </div>
 </div>
 <div class="loginbtm">
 <div>
-<a href="javascript:void(0);" id="backtologin">Back To Login</a>
+<a href="javascript:void(0);" id="backtologin"><?php echo TXT_DEFAULT_BACK_LOGIN ; ?></a>
 </div>
 <div>
-<button type="submit" class="btn btn-primary" name="sublogin2" value="LogIn">Submit</button>
+<button type="submit" class="btn btn-primary" name="sublogin2" value="LogIn"><?php echo TXT_DEFAULT_BUTTON_SUBMIT ; ?></button>
 </div>
 </div>
 <?php echo runtime_csfr::Token(); ?>
@@ -161,32 +161,33 @@ Email:
 <form method="post" name="frmZLogin" id="frmZLogin" class="form-horizontal loginform">
 <div class="loginmid">
 <div class="control-group">
-<label class="control-label" for="inputUsername">Username:</label>
+<label class="control-label" for="inputUsername"><?php echo TXT_DEFAULT_USERNAME ; ?>:</label>
 <div class="controls">
-<input type="text" class="input-medium" id="inputUsername" name="inUsername" placeholder="Username" required>
+<input type="text" class="input-medium" id="inputUsername" name="inUsername" placeholder="<?php echo TXT_DEFAULT_USERNAME ; ?>" <?php echo TXT_DEFAULT_REQUIRED ; ?>>
 </div>
 </div>
 <div class="control-group">
-<label class="control-label" for="inPassword">Password:</label>
+<label class="control-label" for="inPassword"><?php echo TXT_DEFAULT_PASSWORD ; ?>:</label>
 <div class="controls">
-<input type="password" class="input-medium" id="inPassword" name="inPassword" placeholder="Password" required>
+<input type="password" class="input-medium" id="inPassword" name="inPassword" placeholder="<?php echo TXT_DEFAULT_PASSWORD ; ?>" <?php echo TXT_DEFAULT_REQUIRED ; ?>>
+
 </div>
 </div>
 <div class="fluid-row">
 <div class="controls">
 <label class="checkbox">
-<input type="checkbox" data-label="Remember Me" name="inRemember" value="1">
-<input type="checkbox" data-label="Enable Session Security" name="inSessionSecurity" checked>
+<input type="checkbox" data-label="<?php echo TXT_DEFAULT_REMEMBER_ME ; ?>" name="inRemember" value="1">
+<input type="checkbox" data-label="<?php echo TXT_DEFAULT_SECURITY ; ?>" name="inSessionSecurity" checked>
 </label>
 </div>
 </div>
 </div>
 <div class="loginbtm">
 <div>
-<a href="javascript:void(0);" id="forgotpw">Forgot Password?</a>
+<a href="javascript:void(0);" id="forgotpw"><?php echo TXT_DEFAULT_FORGOT_PASSWORD ; ?></a>
 </div>
 <div>
-<button type="submit" class="btn btn-primary" name="sublogin2" value="LogIn">Login</button>
+<button type="submit" class="btn btn-primary" name="sublogin2" value="LogIn"><?php echo TXT_DEFAULT_LOGIN ; ?></button>
 </div>
 </div>
 <?php echo runtime_csfr::Token(); ?>
@@ -195,7 +196,7 @@ Email:
 <?php }?>
 </div><!-- End Panel content-->
 </div>
-<p class="vbox">Powered by <a href="http://www.sentora.org/" target="_blank">Sentora</a></p>
+<p class="vbox"><?php echo TXT_DEFAULT_POWERED_BY ; ?> <a href="http://www.sentora.org/" target="_blank">Sentora</a></p>
 </div>
 <!-- Javascript
 ================================================== -->
