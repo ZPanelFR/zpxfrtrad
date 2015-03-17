@@ -8,7 +8,7 @@ define('TXT_DEFAULT_TEXT_RESET', 'Your nearly there! To reset your account passw
 define('TXT_DEFAULT_NEW_PASSWORD', 'New Password');
 define('TXT_DEFAULT_REQUIRED', 'required');
 define('TXT_DEFAULT_YOUR_EMAIL', 'Your email address');
-define('TXT_DEFAULT_RETYPE_PASSWORD', 'Re-type new password');
+define('TXT_DEFAULT_RETYPE_PASSWORD', 'Confirm Password');
 define('TXT_DEFAULT_BUTTON_SUBMIT', 'Submit');
 define('TXT_DEFAULT_CONTROL_PANEL', 'Control panel login');
 define('TXT_DEFAULT_INVALID_LOGIN', 'Invalid Username or Password!');
