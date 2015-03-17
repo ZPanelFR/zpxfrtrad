@@ -8,7 +8,7 @@ define('TXT_DEFAULT_TEXT_RESET', 'Vous y &ecirc;tes presque! Pour r&eacute;initi
 define('TXT_DEFAULT_NEW_PASSWORD', 'Nouveau mot de passe');
 define('TXT_DEFAULT_REQUIRED', 'requis');
 define('TXT_DEFAULT_YOUR_EMAIL', 'Votre adresse e-mail');
-define('TXT_DEFAULT_RETYPE_PASSWORD', 'Retapez votre nouveau mot de passe');
+define('TXT_DEFAULT_RETYPE_PASSWORD', 'Confirmez Le Mot De Passe');
 define('TXT_DEFAULT_BUTTON_SUBMIT', 'Envoyer');
 define('TXT_DEFAULT_CONTROL_PANEL', 'Connexion au Panneau de Contr&ocirc;le');
 define('TXT_DEFAULT_INVALID_LOGIN', 'Nom d\'utilisateur ou mot de passe incorrect!');
