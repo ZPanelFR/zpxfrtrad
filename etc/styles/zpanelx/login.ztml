@@ -56,11 +56,12 @@ top.location = self.location;
 <div class="panel-content form-horizontal">
 <?php
 if (isset($_GET['invalidlogin'])) {
-echo '
+?>
 <div class="alert alert-danger fade in">
 <button type="button" class="close" data-dismiss="alert">&times;</button>
-Invalid Username or Password!
-</div>';
+<?php echo TXT_DEFAULT_INVALID_LOGIN ; ?>
+</div>
+<?php
 }
 if (isset($_GET['loggedout'])) {
 echo '
