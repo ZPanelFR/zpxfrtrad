@@ -1,4 +1,4 @@
-USE `zpanel_core` ;
+USE `sentora_core` ;
 DROP TABLE IF EXISTS `x_translations`;
 
 CREATE TABLE `x_translations` (
