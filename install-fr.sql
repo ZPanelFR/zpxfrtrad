@@ -1055,5 +1055,5 @@ INSERT INTO `x_translations` (`tr_id_pk`, `tr_en_tx`, `tr_French_tx`) VALUES
 (1106, 'The module zantasticotx is already installed on this server!', 'Le module zantasticotx est déjà installé sur ce serveur !'),
 (1107, 'Couldn\\''t upload the file, 3', NULL);
 
-UPDATE `sentora_core`.`x_profiles` SET `ud_language_vc` = 'French' WHERE `x_profiles`.`ud_id_pk` =1;
-UPDATE `sentora_core`.`x_accounts` SET `ac_notice_tx` = 'Bienvenue dans votre nouvelle installation de ZPanel! Vous pouvez supprimer ce message depuis le module Notification client. Ce module vous permet d informer vos clients des services pannes ameliorations et de nouvelles fonctionnalites, etc :-)' WHERE `x_accounts`.`ac_id_pk` =1;
+UPDATE `x_profiles` SET `ud_language_vc` = 'French' WHERE `x_profiles`.`ud_id_pk` =1;
+UPDATE `x_accounts` SET `ac_notice_tx` = 'Bienvenue dans votre nouvelle installation de Sentora! Vous pouvez supprimer ce message depuis le module Notification client. Ce module vous permet d informer vos clients des services pannes ameliorations et de nouvelles fonctionnalites, etc :-)' WHERE `x_accounts`.`ac_id_pk` =1;
