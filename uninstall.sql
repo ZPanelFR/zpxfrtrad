@@ -842,6 +842,6 @@ INSERT INTO `x_translations` (`tr_id_pk`, `tr_en_tx`, `tr_German_tx`) VALUES
 (830, 'DNS<br/>Checker', NULL),
 (831, 'Domain<br/>Forwarder', NULL);
 
-UPDATE `zpanel_core`.`x_profiles` SET `ud_language_vc` = 'en' WHERE `x_profiles`.`ud_id_pk` =1;
+UPDATE `sentora_core`.`x_profiles` SET `ud_language_vc` = 'en' WHERE `x_profiles`.`ud_id_pk` =1;
 
-UPDATE `zpanel_core`.`x_accounts` SET `ac_notice_tx` = 'Welcome to your new ZPanel installation! You can remove this message from the Client Notice Manager module. This module allows you to notify your clients of service outages upgrades and new features etc :-)' WHERE `x_accounts`.`ac_id_pk` =1;
+UPDATE `sentora_core`.`x_accounts` SET `ac_notice_tx` = 'Welcome to your new ZPanel installation! You can remove this message from the Client Notice Manager module. This module allows you to notify your clients of service outages upgrades and new features etc :-)' WHERE `x_accounts`.`ac_id_pk` =1;
